@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.div ul li button{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.main{
+    width: 50%;
+    margin: auto;
+    background-color:rgb(110, 110, 110);
+    padding: 20px;
+    text-align:center;
+}
+
+.main  input[type='text']{
+    font-size: 25px;
+    padding: 10px 5px;
+    border: none;
+}
+#submit{
+    font-size: 25px;
+    padding: 10px 5px;
+    border: none;
+    background: linear-gradient(45deg,rgb(246, 77, 4),#eb02b5);
+    color: white;
+}
+.main ul{
+    list-style: none;
+    margin: auto;
+    width: 60%;
+}
+.main ul li{
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #eb02b5;
+    text-align: center;
+    color: white;
+}
+
+  
+
+.board h2{
+    padding: 20px 30px;
+    background-color: aqua;
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif ;
+}
+.check input[type='text']{
+
+    border: none;
+    background-color: #eb02b5;
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    padding: 5px;
+}
+#matchBtn{
+
+    border: none;
+    background-color: #fbff00;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 150px;
+    padding: 5px;
+}
+
+.buyNow button{
+    padding: 5px;
+    background: #eb02b5;
+    color: white;
+    margin: 15px;
+}
+
+.image img{
+    height: 400px;
+    width: 800px;
+    display: none;
+    position: absolute;
+}
+
+.image{
+    height: 400px;
+    width: 800px;
+    
+}
